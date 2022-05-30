@@ -1,2 +1,11 @@
 source "https://rubygems.org"
-gemspec
+
+gem "kramdown"
+gem "kramdown-parser-gfm"
+gem "rouge"
+gem "jekyll"
+gem "jekyll-paginate"
+gem "jekyll-paginate-content"
+gem "json"
+
+gem "webrick", "~> 1.7"
